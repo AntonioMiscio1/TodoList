@@ -1,0 +1,75 @@
+@font-face {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    src: url(/webfonts/Neonderthaw-Regular.ttf);
+}
+
+body {
+    background-color: aqua;
+}
+
+#container {
+    background-color: white;
+    width: 600px;
+    min-height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 100px;
+    color: blue;
+}
+
+.text-position {
+    text-align: left;
+    margin-left: 20px;
+    overflow-wrap: break-word;
+}
+
+.task-date {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.task-done {
+    text-decoration: line-through crimson;
+}
+
+.task-text {
+    margin-left: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.unconfirmed {
+    color: lightgrey;
+}
+
+.unconfirmed .task-date {
+    color: lightgrey;
+}
+
+.error,
+.error .task-date {
+    color: red;
+}
+
+#tasks-list > div:not(:last-child) {
+    border-bottom: 1px solid red;
+}
+#il-mio-link:link,
+#il-mio-link:visited {
+    background: red;
+}
+
+#il-mio-link:hover,
+#il-mio-link:active {
+    background: blue;
+}
+#task-content:focus {
+    background: yellow;
+}

@@ -1,0 +1,1 @@
+# Spring Boot And Vanilla JS based TodoList project.
